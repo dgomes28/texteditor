@@ -9,7 +9,7 @@ def main(stdscr):
         stdscr.keypad(True)
         i = random.randint(1, 100)/100
         j = random.randint(1, 100)/100
-        stdscr.addstr(int(curses.LINES*i), int(curses.COLS/2*j) ,"Hello World")
+        stdscr.addstr(int(curses.LINES*i), int(curses.COLS/2*j) ,"World Hello")
         stdscr.getkey()
         stdscr.clear()
     
